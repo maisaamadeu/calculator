@@ -1,14 +1,17 @@
 name: calculator
 description: A new Flutter project.
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=2.19.5 <3.0.0'
+  sdk: ">=2.19.5 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_staggered_grid_view: ^0.6.2
+  math_expressions: ^2.3.1
+  auto_size_text: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +20,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: Bungee
+      fonts:
+        - asset: assets/fonts/Bungee-Regular.ttf
